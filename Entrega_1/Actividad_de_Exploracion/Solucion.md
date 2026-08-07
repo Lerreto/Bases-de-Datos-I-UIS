@@ -26,7 +26,7 @@ Para la gestión de un gimnasio se deben considerar los siguientes conceptos:
 
 ## 2.) Tendencias actuales en dichos conceptos
 ## 3.) Consultar y analizar al menos 2 herramientas existentes en el mercado para el problema o situación assignado
-- **Herramienta 1: MySQL**
+**Herramienta 1: MySQL**
 MySQL es uno de los sistemas gestores de bases de datos relacionales más utilizados en el mundo. Es de código abierto, ofrece un buen rendimiento y es ampliamente empleado en aplicaciones web y sistemas de gestión empresarial.
 
 **Características**
@@ -37,7 +37,7 @@ MySQL es uno de los sistemas gestores de bases de datos relacionales más utiliz
 - Compatible con múltiples sistemas operativos.
 - Gratuito en su edición Community.
 
-- **Herramienta 2: PostgreSQL**
+**Herramienta 2: PostgreSQL**
 PostgreSQL es un sistema gestor de bases de datos relacionales de código abierto reconocido por su robustez, seguridad y cumplimiento de los estándares SQL.
 
 **Características**
