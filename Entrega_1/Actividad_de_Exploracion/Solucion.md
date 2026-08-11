@@ -27,25 +27,28 @@ Para la gestión de un gimnasio se deben considerar los siguientes conceptos:
 ## 2.) Tendencias actuales en dichos conceptos
 ## 3.) Consultar y analizar al menos 2 herramientas existentes en el mercado para el problema o situación assignado
 
-**Herramienta 1: MySQL**
+**Herramienta 1: Mindbody**
 
-MySQL es uno de los sistemas gestores de bases de datos relacionales más utilizados en el mundo. Es de código abierto, ofrece un buen rendimiento y es ampliamente empleado en aplicaciones web y sistemas de gestión empresarial.
+Una de las plataformas más completas y establecidas del mercado para la gestión de gimnasios, estudios y negocios de bienestar. Está orientada principalmente a operaciones grandes o multi-sede, y se destaca por integrar un marketplace público donde millones de usuarios reservan clases directamente.
 
-**Características**
-- Base de datos relacional.
-- Utiliza el lenguaje SQL.
-- Soporta claves primarias y foráneas.
-- Permite transacciones e integridad referencial.
-- Compatible con múltiples sistemas operativos.
-- Gratuito en su edición Community.
+**Características:**
 
-**Herramienta 2: PostgreSQL**
+- Gestión de socios/usuarios con perfil, historial de pagos y datos personales.
+- Programación y reserva de clases/servicios con control de capacidad.
+- Gestión de membresías con facturación recurrente y múltiples planes.
+- Marketplace público para atraer nuevos clientes.
+- Reportes y Gestión de relación con el cliente para analizar el uso de espacios y la retención de socios.
+- Integraciones extensas con otras herramientas empresariales.
 
-PostgreSQL es un sistema gestor de bases de datos relacionales de código abierto reconocido por su robustez, seguridad y cumplimiento de los estándares SQL.
+**Herramienta 2: Glofox**
 
-**Características**
-- Alta estabilidad.
-- Soporte para transacciones complejas.
-- Integridad de datos avanzada.
-- Excelente manejo de grandes volúmenes de información.
-- Permite funciones, procedimientos almacenados y disparadores (triggers).
+Glofox es una plataforma de gestión enfocada en estudios boutique y gimnasios de tamaño pequeño a mediano. Prioriza una interfaz moderna, simple y una experiencia móvil pulida tanto para administradores como para usuarios finales.
+
+**Características:**
+
+- Gestión de membresías simplificada, con app de marca propia para el gimnasio.
+- Calendario de clases/sesiones con control de aforo.
+- Registro y control de pagos integrados.
+- Panel administrativo enfocado en operaciones de una o pocas sedes.
+- Escalabilidad para negocios en crecimiento.
+- API moderna para automatizaciones adicionales.
