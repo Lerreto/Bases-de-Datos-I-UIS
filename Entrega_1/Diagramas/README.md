@@ -10,7 +10,7 @@ Modelos gráficos del proyecto **GymCore**.
 |---------|-------------|
 | [`Modelo_Entidad_Relacion.drawio`](Modelo_Entidad_Relacion.drawio) | **Modelo E-R final** en notación de Chen.. |
 | [`Modelo_Entidad_Relacion.png`](Modelo_Entidad_Relacion.png) | Imagen del modelo final. |
-| [`Primera_Propuesta.jpg`](Primera_Propuesta.jpg) |Bosquejo inicial hecho durante la actividad de exploración. Se conserva como registro de la evolución del diseño. |
+| [`Primera_Propuesta.jpg`](Primera_Propuesta.jpg) |Bosquejo inicial hecho durante la actividad de exploración. |
 
 ---
 
