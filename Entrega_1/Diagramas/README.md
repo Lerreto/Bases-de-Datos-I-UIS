@@ -57,6 +57,3 @@ diagrama; se reproduce aquí como referencia rápida:
 - Un **subsistema de plataforma** (`USUARIO`, `ROL`, `PERMISO`, `BITÁCORA`),
   señalado con un recuadro en el diagrama.
 
-La descripción completa —entidades, atributos, cardinalidades y elementos del E-R
-extendido— está en el
-[documento entregable](../Entrega_Final_01/README.md#4-modelo-e-r-del-proyecto).
