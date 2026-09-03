@@ -164,7 +164,6 @@ PostgreSQL es un sistema gestor de bases de datos relacionales de código abiert
 - Excelente manejo de grandes volúmenes de información.
 - Permite funciones, procedimientos almacenados y disparadores (triggers).
 
-**Lectura para el proyecto.** Varias reglas de negocio de GymCore no se pueden expresar en el modelo E-R y deberán implementarse como restricciones activas: que un acceso solo sea válido si el plan cubre esa sede, o que el cupo de una sesión no supere el aforo del espacio. El soporte de disparadores y procedimientos almacenados es, por tanto, un criterio de peso al momento de elegir el motor.
 
 ---
 
