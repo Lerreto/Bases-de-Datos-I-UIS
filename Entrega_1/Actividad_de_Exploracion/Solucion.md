@@ -35,7 +35,7 @@ Para la gestión de una red de gimnasios se deben considerar los siguientes conc
 
 ### 2.1 Tendencias del negocio
 
-**Membresías flexibles y segmentadas.** Actualmente se presentan las membresías como una opción popular mediante la cual el gimnasio ofrece servicios y tarifas a elección y comodidad del cliente. Por dar un ejemplo: Bodytech ofrece una membresía *hora naranja* para entrenar en una franja horaria especial —"lunes a jueves de 11:00 am a 4:00 pm y de 8:30 pm al cierre"— para acomodarse a las preferencias horarias del usuario. Smart Fit segmenta por nivel de beneficios con sus planes Fit, Smart y Black, cuyas tarifas en 2026 van desde $69.900 hasta $119.900 mensuales.
+**Membresías flexibles y segmentadas.** Actualmente se presentan las membresías como una opción popular mediante la cual el gimnasio ofrece servicios y tarifas a elección y comodidad del cliente. Por dar un ejemplo: Bodytech ofrece una membresía *hora naranja* para entrenar en una franja horaria especial "lunes a jueves de 11:00 am a 4:00 pm y de 8:30 pm al cierre" para acomodarse a las preferencias horarias del usuario. Smart Fit segmenta por nivel de beneficios con sus planes Fit, Smart y Black, cuyas tarifas en 2026 van desde $69.900 hasta $119.900 mensuales.
 
 **Modelo low-cost de alto volumen.** Smart Fit llegó a Colombia en 2016 y hoy supera las 200 sedes en el país. Con tarifas bajas, el margen por cliente es reducido, de modo que el negocio depende de automatizar la operación y de medir con precisión la ocupación de cada sede.
 
