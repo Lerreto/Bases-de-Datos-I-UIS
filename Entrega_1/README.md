@@ -8,9 +8,9 @@ estado del arte y traducirlo a un modelo entidad-relación.
 
 ---
 
-## 📄 Documento entregable
+## Documento entregable
 
-👉 **[`Entrega_Final_01/README.md`](Entrega_Final_01/README.md)**
+**[`Entrega_Final_01/README.md`](Entrega_Final_01/README.md)**
 
 Ese es el documento que se evalúa. Contiene los cuatro puntos exigidos:
 
@@ -42,29 +42,3 @@ Entrega_1/
 └── README.md
 ```
 
----
-
-## Recorrido de la entrega
-
-1. **Actividad de exploración** — se levantaron los conceptos del dominio de un
-   gimnasio: clientes, membresías, planes, pagos, servicios, sedes, horarios,
-   reservas, entrenadores, equipamiento y control de acceso.
-2. **Primera propuesta** — bosquejo inicial del modelo
-   ([`Diagramas/Primera_Propuesta.jpg`](Diagramas/Primera_Propuesta.jpg)).
-3. **Ampliación del alcance** — el problema pasó de "un gimnasio" a "una
-   plataforma que administra varias cadenas de gimnasios", lo que introdujo
-   `EMPRESA` como entidad raíz y convirtió a `SEDE` en entidad débil.
-4. **Modelo E-R final** — 19 entidades, 24 relaciones y una especialización total
-   y disjunta, en notación de Chen.
-
----
-
-## Estado
-
-| Elemento | Estado |
-|----------|--------|
-| Punto 1 — Contexto del problema | ✅ |
-| Punto 2 — Tendencias actuales | ✅ |
-| Punto 3 — Herramientas similares | ✅ |
-| Punto 4 — Modelo E-R | ✅ |
-| Diagrama `.drawio` + `.png` | ✅ |
