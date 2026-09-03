@@ -17,7 +17,7 @@ La actividad pedía tres puntos:
 
 | Archivo | Contenido |
 |---------|-----------|
-| [`Solucion.md`](Solucion.md) | Desarrollo de los tres puntos de la actividad, revisado y ampliado. |
+| [`Solucion.md`](Solucion.md) | Desarrollo de los tres puntos de la actividad. |
 
 ### Estructura de `Solucion.md`
 
