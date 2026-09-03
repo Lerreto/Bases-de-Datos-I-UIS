@@ -23,7 +23,7 @@ La actividad pedía tres puntos:
 
 | Sección | Contenido |
 |---------|-----------|
-| 1 | Conceptos importantes y relevantes de la temática (19 conceptos del dominio) |
+| 1 | Conceptos importantes y relevantes de la temática (19 conceptos de la tematica asignada) |
 | 2 | Tendencias actuales: del negocio y tecnológicas |
 | 3 | Análisis de PerfectGym, Mindbody y Trainingym, con cuadro comparativo |
 | 4 | *Anexo* — motores de base de datos considerados para la implementación |
