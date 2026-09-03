@@ -57,9 +57,9 @@ equipamiento y facturación sobre un mismo modelo de datos.
 
 Los modelos están en formato `.drawio`. Se pueden abrir con:
 
-- **draw.io / diagrams.net en línea** — <https://app.diagrams.net> → *File → Open from → Device*
-- **Aplicación de escritorio** — [drawio-desktop](https://github.com/jgraph/drawio-desktop)
-- **VS Code** — extensión *Draw.io Integration* (`hediet.vscode-drawio`)
+- **draw.io / diagrams.net en línea** <https://app.diagrams.net> → *File → Open from → Device*
+- **Aplicación de escritorio** [drawio-desktop](https://github.com/jgraph/drawio-desktop)
+- **VS Code** extensión *Draw.io Integration* (`hediet.vscode-drawio`)
 
 Cada diagrama tiene su exportación en `.png` o `.jpg` al lado, para verlo sin
 instalar nada.
