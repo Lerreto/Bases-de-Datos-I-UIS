@@ -6,11 +6,11 @@ Modelos gráficos del proyecto **GymCore**.
 
 ## Inventario
 
-| Archivo | Tipo | Descripción |
-|---------|------|-------------|
-| [`Modelo_Entidad_Relacion.drawio`](Modelo_Entidad_Relacion.drawio) | Editable | **Modelo E-R final** en notación de Chen. Fuente de verdad del modelo. |
-| [`Modelo_Entidad_Relacion.png`](Modelo_Entidad_Relacion.png) | Imagen | Exportación del modelo final, para verlo sin instalar nada. |
-| [`Primera_Propuesta.jpg`](Primera_Propuesta.jpg) | Imagen | Bosquejo inicial hecho durante la actividad de exploración. Se conserva como registro de la evolución del diseño. |
+| Archivo |Descripción |
+|---------|-------------|
+| [`Modelo_Entidad_Relacion.drawio`](Modelo_Entidad_Relacion.drawio) | **Modelo E-R final** en notación de Chen.. |
+| [`Modelo_Entidad_Relacion.png`](Modelo_Entidad_Relacion.png) | Imagen del modelo final. |
+| [`Primera_Propuesta.jpg`](Primera_Propuesta.jpg) |Bosquejo inicial hecho durante la actividad de exploración. Se conserva como registro de la evolución del diseño. |
 
 ---
 
