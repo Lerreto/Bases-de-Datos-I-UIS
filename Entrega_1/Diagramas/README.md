@@ -12,18 +12,8 @@ Modelos gráficos del proyecto **GymCore**.
 | [`Modelo_Entidad_Relacion.png`](Modelo_Entidad_Relacion.png) | Imagen | Exportación del modelo final, para verlo sin instalar nada. |
 | [`Primera_Propuesta.jpg`](Primera_Propuesta.jpg) | Imagen | Bosquejo inicial hecho durante la actividad de exploración. Se conserva como registro de la evolución del diseño. |
 
-> El archivo `.drawio` es la fuente de verdad. La imagen `.png` se **regenera** a
-> partir de él (*File → Export as → PNG*) y nunca se edita a mano.
-
 ---
 
-## Cómo abrirlos
-
-- **En línea** — <https://app.diagrams.net> → *File → Open from → Device*
-- **Escritorio** — [drawio-desktop](https://github.com/jgraph/drawio-desktop)
-- **VS Code** — extensión *Draw.io Integration* (`hediet.vscode-drawio`)
-
----
 
 ## Notación utilizada
 
