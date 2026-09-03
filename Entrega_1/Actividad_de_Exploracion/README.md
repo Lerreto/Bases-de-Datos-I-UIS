@@ -1,11 +1,5 @@
 # Actividad de exploración
 
-Actividad previa a la Entrega 1. Su objetivo fue **entender el dominio** antes de
-dibujar una sola entidad: qué conceptos existen en la gestión de un gimnasio, cómo
-se comporta hoy el mercado y qué herramientas ya resuelven el problema.
-
----
-
 ## Enunciado
 
 La actividad pedía tres puntos:
