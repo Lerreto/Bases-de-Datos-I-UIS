@@ -302,10 +302,6 @@ del `ESPACIO`.
 
 ### 4.1 Diagrama
 
-El modelo está construido en **notación de Chen** e incluye cardinalidades,
-entidades débiles, especialización y atributos compuestos, multivaluados y
-derivados.
-
 | Archivo | Ubicación |
 |---------|-----------|
 | Diagrama editable | [`../Diagramas/Modelo_Entidad_Relacion.drawio`](../Diagramas/Modelo_Entidad_Relacion.drawio) |
