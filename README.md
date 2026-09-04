@@ -27,8 +27,8 @@ equipamiento y facturación sobre un mismo modelo de datos.
 | Entrega | Contenido | Estado |
 |---------|-----------|--------|
 | [Entrega 1](Entrega_1/) | Contexto, tendencias, análisis de herramientas y **modelo E-R** | ✅ Completa |
-| [Entrega 2](Entrega_2/) | Modelo lógico relacional y normalización | 🔲 Pendiente |
-| [Entrega 3](Entrega_3/) | Modelo físico, DDL, carga de datos y consultas | 🔲 Pendiente |
+| [Entrega 2](Entrega_2/) | --------------------------------------------------------------- | 🔲 Pendiente |
+| [Entrega 3](Entrega_3/) | --------------------------------------------------------------- | 🔲 Pendiente |
 
 
   se regenera a partir de él y nunca se edita a mano.
