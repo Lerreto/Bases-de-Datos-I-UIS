@@ -9,7 +9,7 @@ empresas de gimnasios, cada una con múltiples sedes.
 
 **[`Entrega_Final_01/README.md`](Entrega_Final_01/README.md)**
 
-Ese es el documento por la profe Nury.
+Ese es el documento con las exigencias pedidas por la profe.
 
 | # | Sección |
 |---|---------|
