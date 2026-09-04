@@ -30,8 +30,3 @@ equipamiento y facturación sobre un mismo modelo de datos.
 | [Entrega 2](Entrega_2/) | --------------------------------------------------------------- | 🔲 Pendiente |
 | [Entrega 3](Entrega_3/) | --------------------------------------------------------------- | 🔲 Pendiente |
 
-
-  se regenera a partir de él y nunca se edita a mano.
-- Los nombres de entidades, atributos y relaciones del modelo se escriben en
-  español, en mayúsculas para entidades y con la primera letra en mayúscula para
-  atributos.
