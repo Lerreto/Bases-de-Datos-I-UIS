@@ -413,7 +413,7 @@ a ninguna de las dos entidades por separado: solo existen cuando ambas se vincul
 
 ---
 
-## Referencias
+## 5. Referencias
 
 - Trainingym. *Tendencias tecnológicas en la industria del fitness.* <https://blog.trainingym.com/tendencias-tecnologicas-en-la-industria-del-fitness>
 - Trainingym. *10 mejores apps de gestión para centros fitness en 2026.* <https://blog.trainingym.com/es/blog/10-mejores-apps-gestion-centros-fitness-2026>
