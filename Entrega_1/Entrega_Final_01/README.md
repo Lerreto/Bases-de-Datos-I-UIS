@@ -301,8 +301,16 @@ del `ESPACIO`.
 ## 4. Modelo E-R del proyecto
 
 ### 4.1 Diagrama
+
+![Modelo Entidad-Relación — GymCore](./Modelo_Entidad_Relacion.jpg)
+
 **Resumen del modelo:** 19 entidades (14 fuertes y 5 débiles), 24 relaciones y una
 especialización total y disjunta.
+
+| Archivo | Ruta |
+|---------|------|
+| Diagrama (imagen) | [`Entrega_1/Entrega_Final_01/Modelo_Entidad_Relacion.jpg`](./Modelo_Entidad_Relacion.jpg) |
+| Diagrama (editable, draw.io) | [`Entrega_1/Entrega_Final_01/Modelo_Entidad_Relacion.drawio`](./Modelo_Entidad_Relacion.drawio) |
 
 ### 4.2 Entidades y atributos
 
@@ -366,69 +374,6 @@ Las claves parciales de las entidades débiles se marcan con `PK parcial`.
 | 22 | USUARIO | Posee | ROL | **N:M** | Un usuario posee varios roles; un rol lo poseen varios usuarios. |
 | 23 | ROL | Otorga | PERMISO | **N:M** | Un rol otorga varios permisos; un permiso pertenece a varios roles. |
 | 24 | USUARIO | Registra ingreso *(identificadora)* | BITÁCORA | **1:N** | Cada usuario acumula muchos registros de ingreso. |
-
-### 4.4 Modelo E-R extendido
-
-Además de entidades, relaciones y cardinalidades, el modelo aplica los siguientes
-elementos del **E-R extendido**:
-
-#### a) Especialización / generalización (ISA)
-
-```
-                     EMPLEADO
-                  (Documento, Nombre, Teléfono,
-                   Fecha_ingreso, Salario)
-                         │
-                        ISA        (d) disjunta / total
-                    ┌────┴────┐
-                    │         │
-              ENTRENADOR  ADMINISTRATIVO
-              (Especialidad)   (Área)
-```
-
-- **Disjunta (d):** un empleado es entrenador **o** administrativo, nunca los dos.
-- **Total:** todo empleado pertenece obligatoriamente a uno de los dos subtipos.
-- **Herencia:** ambos subtipos heredan `Documento`, `Nombre`, `Teléfono`,
-  `Fecha_ingreso` y `Salario` del supertipo.
-- **Justificación:** solo el entrenador dirige sesiones y solo tiene sentido
-  guardarle `Especialidad`; el administrativo tiene `Área`. Sin especialización,
-  la mitad de los atributos quedarían nulos en cada fila.
-
-#### b) Entidades débiles y relaciones identificadoras
-
-Cinco entidades **no tienen identidad propia** y se representan con rectángulo
-doble, unidas por una relación identificadora (rombo doble) con **participación
-total**:
-
-| Entidad débil | Identificada por | Por qué es débil |
-|---------------|------------------|------------------|
-| SEDE | EMPRESA | Dos empresas pueden numerar sus sedes igual; la sede solo existe dentro de su cadena. |
-| ESPACIO | SEDE | El "Salón 1" existe en muchas sedes; se identifica junto con la sede. |
-| ACCESO | MEMBRESÍA | Un acceso es un evento sin código propio: se identifica por la membresía y el instante de entrada. |
-| MANTENIMIENTO | EQUIPAMIENTO | El reporte se numera por equipo, no globalmente. |
-| BITÁCORA | USUARIO | Cada entrada del log pertenece a un usuario y se identifica por el instante. |
-
-#### c) Tipos de atributo
-
-| Tipo | Representación | Casos en el modelo |
-|------|----------------|--------------------|
-| **Clave** | Óvalo con texto subrayado | `NIT`, `Cód_plan`, `Cód_membresía`, `Nº_factura`, `Cód_servicio`, `Documento`, `Serial`, `Cód_sesión`, `Cód_usuario`, `Cód_rol`, `Cód_permiso` |
-| **Clave parcial** | Óvalo con subrayado punteado | `Cód_sede`, `Cód_espacio`, `Fecha_hora_entrada`, `Nº_reporte`, `Fecha_hora` |
-| **Compuesto** | Óvalo con óvalos hijos | `CLIENTE.Nombre` → (`Nombres`, `Apellidos`) |
-| **Multivaluado** | Óvalo doble | `CLIENTE.Teléfono`, `CLIENTE.Restricciones` |
-| **Derivado** | Óvalo punteado | `USUARIO.Último_ingreso` — se calcula a partir de la `BITÁCORA`, no se almacena por separado. |
-
-#### d) Atributos sobre relaciones
-
-Cuatro relaciones llevan datos que **no pertenecen a ninguna de las dos entidades**,
-sino al vínculo entre ellas:
-
-| Relación | Cardinalidad | Atributos | Por qué van en la relación |
-|----------|:------------:|-----------|----------------------------|
-| `SEDE` — **Presta** — `SERVICIO` | N:M | `Horario` | El mismo servicio se presta en horarios distintos según la sede. |
-| `PLAN` — **Incluye** — `SERVICIO` | N:M | `Cupo_mensual`, `Costo_adicional` | Un servicio puede estar incluido en un plan y tener sobrecosto en otro. |
-| `USUARIO` — **Posee** — `ROL` | N:M | `Fecha_asignación`, `Vigente` | La asignación del rol tiene su propia vigencia. |
-| `CLIENTE` — **Reserva** — `SESIÓN` | N:M | `Fecha_reserva`, `Estado` | La reserva se hace en un momento y puede cancelarse. |
 
 ### 4.5 Supuestos y restricciones del modelo
 
