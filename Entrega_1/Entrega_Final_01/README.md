@@ -301,15 +301,6 @@ del `ESPACIO`.
 ## 4. Modelo E-R del proyecto
 
 ### 4.1 Diagrama
-
-| Archivo | Ubicación |
-|---------|-----------|
-| Diagrama editable | [`../Diagramas/Modelo_Entidad_Relacion.drawio`](../Diagramas/Modelo_Entidad_Relacion.drawio) |
-| Diagrama exportado | [`../Diagramas/Modelo_Entidad_Relacion.png`](../Diagramas/Modelo_Entidad_Relacion.png) |
-| Propuesta inicial | [`../Diagramas/Primera_Propuesta.jpg`](../Diagramas/Primera_Propuesta.jpg) |
-
-![Modelo Entidad-Relación de GymCore](../Diagramas/Modelo_Entidad_Relacion.png)
-
 **Resumen del modelo:** 19 entidades (14 fuertes y 5 débiles), 24 relaciones y una
 especialización total y disjunta.
 
