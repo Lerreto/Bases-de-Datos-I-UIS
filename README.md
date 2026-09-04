@@ -30,8 +30,6 @@ equipamiento y facturación sobre un mismo modelo de datos.
 | [Entrega 2](Entrega_2/) | Modelo lógico relacional y normalización | 🔲 Pendiente |
 | [Entrega 3](Entrega_3/) | Modelo físico, DDL, carga de datos y consultas | 🔲 Pendiente |
 
-**Documento a evaluar de la Entrega 1:**
-[`Entrega_1/Entrega_Final_01/README.md`](Entrega_1/Entrega_Final_01/README.md)
 
   se regenera a partir de él y nunca se edita a mano.
 - Los nombres de entidades, atributos y relaciones del modelo se escriben en
