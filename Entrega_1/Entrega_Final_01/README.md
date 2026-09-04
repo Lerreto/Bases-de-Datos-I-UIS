@@ -375,7 +375,7 @@ Las claves parciales de las entidades débiles se marcan con `PK parcial`.
 | 23 | ROL | Otorga | PERMISO | **N:M** | Un rol otorga varios permisos; un permiso pertenece a varios roles. |
 | 24 | USUARIO | Registra ingreso *(identificadora)* | BITÁCORA | **1:N** | Cada usuario acumula muchos registros de ingreso. |
 
-### 4.5 Supuestos y restricciones del modelo
+### 4.4 Supuestos y restricciones del modelo
 
 1. Un cliente puede estar afiliado a más de una empresa, pero cada membresía
    pertenece a un único plan y, por lo tanto, a una única empresa.
