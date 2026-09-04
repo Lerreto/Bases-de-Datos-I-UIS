@@ -9,7 +9,7 @@ empresas de gimnasios, cada una con múltiples sedes.
 
 **[`Entrega_Final_01/README.md`](Entrega_Final_01/README.md)**
 
-Ese es el documento que se evalúa. Contiene los cuatro puntos necesarios para realizar la entrega:
+Ese es el documento por la profe Nury.
 
 | # | Sección |
 |---|---------|
