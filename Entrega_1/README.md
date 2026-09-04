@@ -3,9 +3,6 @@
 Primera entrega del proyecto **GymCore**: una plataforma que administra varias
 empresas de gimnasios, cada una con múltiples sedes.
 
-Esta entrega cubre el **modelo conceptual**: entender el dominio, revisar el
-estado del arte y traducirlo a un modelo entidad-relación.
-
 ---
 
 ## Documento entregable
