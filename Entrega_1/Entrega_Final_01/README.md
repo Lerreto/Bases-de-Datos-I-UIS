@@ -304,8 +304,8 @@ del `ESPACIO`.
 
 ![Modelo Entidad-Relación — GymCore](./Modelo_Entidad_Relacion.jpg)
 
-**Resumen del modelo:** 19 entidades (14 fuertes y 5 débiles), 24 relaciones y una
-especialización total y disjunta.
+**Resumen del modelo:** 19 entidades (14 fuertes y 5 débiles), 24 relaciones
+—cinco de ellas N:M— y una especialización `ES` sobre `EMPLEADO`.
 
 | Archivo | Ruta |
 |---------|------|
@@ -325,7 +325,7 @@ Las claves parciales de las entidades débiles se marcan con `PK parcial`.
 | **PLAN** | `Cód_plan` (PK), Nombre, Tipo, Duración_meses, Precio, Franja_horaria |
 | **MEMBRESÍA** | `Cód_membresía` (PK), Fecha_inicio, Fecha_fin, Estado |
 | **PAGO** | `Nº_factura` (PK), Fecha_pago, Monto, Método_pago, Estado |
-| **SERVICIO** | `Cód_servicio` (PK), Nombre, Descripción, Modalidad, Requiere_reserva |
+| **SERVICIO** | `Cód_servicio` (PK), Nombre, Descripción, Modalidad, Requiere_reserva, Requisito |
 | **CLIENTE** | `Documento` (PK), Nombre *(compuesto: Nombres, Apellidos)*, Fecha_nacimiento, Teléfono *(multivaluado)*, Email, RH, Restricciones *(multivaluado)* |
 | **EMPLEADO** | `Documento` (PK), Nombre, Teléfono, Fecha_ingreso, Salario |
 | **ENTRENADOR** | Especialidad *(subtipo de EMPLEADO)* |
@@ -346,6 +346,18 @@ Las claves parciales de las entidades débiles se marcan con `PK parcial`.
 | **MANTENIMIENTO** | EQUIPAMIENTO | `Recibe` | `Nº_reporte` (PK parcial), Fecha, Descripción, Costo |
 | **BITÁCORA** | USUARIO | `Registra ingreso` | `Fecha_hora` (PK parcial), Dirección_IP, Dispositivo, Resultado |
 
+#### Atributos de relación
+
+Cuatro relaciones llevan atributos propios en el diagrama. Esos datos no pertenecen
+a ninguna de las dos entidades por separado: solo existen cuando ambas se vinculan.
+
+| Relación | Entidades | Atributos |
+|----------|-----------|-----------|
+| **Presta** | SEDE ↔ SERVICIO | Horario |
+| **Incluye** | PLAN ↔ SERVICIO | Cupo_mensual, Costo_adicional |
+| **Reserva** | CLIENTE ↔ SESIÓN | Fecha_reserva, Estado |
+| **Posee** | USUARIO ↔ ROL | Fecha_asignación, Vigente |
+
 ### 4.3 Relaciones y cardinalidad
 
 | # | Entidad A | Relación | Entidad B | Cardinalidad | Lectura |
@@ -357,8 +369,8 @@ Las claves parciales de las entidades débiles se marcan con `PK parcial`.
 | 5 | PLAN | Incluye | SERVICIO | **N:M** | Un plan incluye varios servicios; un servicio está en varios planes. |
 | 6 | CLIENTE | Adquiere | MEMBRESÍA | **1:N** | Un cliente adquiere varias membresías a lo largo del tiempo. |
 | 7 | MEMBRESÍA | Genera | PAGO | **1:N** | Una membresía genera uno o varios pagos. |
-| 8 | EMPLEADO | Registra pago | PAGO | **1:N** | Un empleado registra muchos pagos; cada pago lo registra un empleado. |
-| 9 | MEMBRESÍA | Registra *(identificadora)* | ACCESO | **1:N** | Una membresía acumula muchos accesos. |
+| 8 | EMPLEADO | Registra *(pagos)* | PAGO | **1:N** | Un empleado registra muchos pagos; cada pago lo registra un empleado. |
+| 9 | MEMBRESÍA | Registra *(accesos, identificadora)* | ACCESO | **1:N** | Una membresía acumula muchos accesos. |
 | 10 | SEDE | Se realiza en | ACCESO | **1:N** | Cada acceso ocurre en una sede. |
 | 11 | SEDE | Contiene *(identificadora)* | ESPACIO | **1:N** | Una sede contiene varios espacios. |
 | 12 | SEDE | Presta | SERVICIO | **N:M** | Una sede presta varios servicios; un servicio se presta en varias sedes. |
@@ -371,7 +383,7 @@ Las claves parciales de las entidades débiles se marcan con `PK parcial`.
 | 19 | CLIENTE | Reserva | SESIÓN | **N:M** | Un cliente reserva varias sesiones; una sesión recibe varias reservas. |
 | 20 | EMPLEADO | Cuenta empleado | USUARIO | **1:1** | Cada empleado tiene una única cuenta de plataforma. |
 | 21 | CLIENTE | Cuenta cliente | USUARIO | **1:1** | Cada cliente tiene una única cuenta de plataforma. |
-| 22 | USUARIO | Posee | ROL | **N:M** | Un usuario posee varios roles; un rol lo poseen varios usuarios. |
+| 22 | USUARIO | Posee | ROL | **N:1** | Un usuario posee un rol; un mismo rol lo poseen varios usuarios. |
 | 23 | ROL | Otorga | PERMISO | **N:M** | Un rol otorga varios permisos; un permiso pertenece a varios roles. |
 | 24 | USUARIO | Registra ingreso *(identificadora)* | BITÁCORA | **1:N** | Cada usuario acumula muchos registros de ingreso. |
 
@@ -392,6 +404,12 @@ Las claves parciales de las entidades débiles se marcan con `PK parcial`.
    cliente o a un empleado.
 6. El precio queda congelado en `PLAN.Precio` al momento de la venta; los cambios
    de tarifa generan un nuevo plan y no alteran las membresías vigentes.
+7. La especialización `ES` sobre `EMPLEADO` se asume **total y disjunta**: todo
+   empleado es entrenador o administrativo, y nunca ambos. El diagrama traza la
+   jerarquía pero no rotula la restricción, por lo que se documenta aquí.
+8. Cada usuario de la plataforma tiene **un solo rol** (`Posee` es N:1). Los
+   atributos `Fecha_asignación` y `Vigente` de la relación registran desde cuándo
+   rige esa asignación y si sigue activa.
 
 ---
 
