@@ -27,6 +27,6 @@ equipamiento y facturación sobre un mismo modelo de datos.
 | Entrega | Contenido | Estado |
 |---------|-----------|--------|
 | [Entrega 1](Entrega_1/) | Contexto, tendencias, análisis de herramientas y **modelo E-R** | ✅ Completa |
-| [Entrega 2](Entrega_2/) | --------------------------------------------------------------- | 🔲 Pendiente |
+| [Entrega 2](Entrega_2/) | **Modelo relacional** normalizado hasta 5FN, informe de normalización y corrección de cardinalidades del E-R | ✅ Completa |
 | [Entrega 3](Entrega_3/) | --------------------------------------------------------------- | 🔲 Pendiente |
 

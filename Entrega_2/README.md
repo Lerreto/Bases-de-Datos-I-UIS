@@ -1,6 +1,35 @@
-# Entrega 2 — 
+# Entrega 2 — Modelo relacional y normalización
 
-Segunda entrega del proyecto **GymCore**.
+Segunda entrega del proyecto **GymCore**: una plataforma que administra varias
+empresas de gimnasios, cada una con múltiples sedes.
 
-> 🔲 **Pendiente.** 
+En esta entrega transformamos el modelo E-R de la primera entrega en un
+**modelo relacional de 28 tablas** con el tipo de dato de cada columna, y lo
+normalizamos **hasta la quinta forma normal (5FN)**.
 
+---
+
+## Organización
+
+Como lo pide el enunciado, el contenido está organizado en dos carpetas:
+
+| # | Carpeta | Contenido |
+|---|---------|-----------|
+| 1 | [`Modelo_E-R/`](Modelo_E-R/) | Archivos de la primera entrega y el diagrama E-R con las **cardinalidades corregidas**. |
+| 2 | [`Modelo_Relacional/`](Modelo_Relacional/) | Modelo relacional normalizado e informe de aplicación de los pasos de normalización. |
+
+---
+
+## Documento entregable
+
+**[`Modelo_Relacional/README.md`](Modelo_Relacional/README.md)**
+
+| # | Sección |
+|---|---------|
+| 1 | Paso del modelo E-R al modelo relacional |
+| 2 | Modelo relacional (tablas, llaves y tipos de dato) |
+| 3 | Normalización (1FN a 5FN) y por qué no aplicamos la 6FN |
+
+> **Nota:** antes de construir el modelo relacional corregimos algunas
+> cardinalidades del diagrama E-R. El detalle está en
+> [`Modelo_E-R/README.md`](Modelo_E-R/README.md).
