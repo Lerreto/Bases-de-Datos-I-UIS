@@ -1,8 +1,5 @@
 USE gymcore;
 
--- Consultas de GymCore. Correr despues de gymcore.sql y gymcore_populate.sql.
--- Las consultas 9 y 10 usan CURDATE(), asi que su resultado cambia con la fecha.
-
 
 -- ------------------------------------------------------------------
 -- 1. Clientes y su plan
