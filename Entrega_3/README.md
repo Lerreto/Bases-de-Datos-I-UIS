@@ -67,6 +67,9 @@ generado con MySQL Workbench.
 > datos de prueba tienen como referencia noviembre de 2026, así que con el
 > tiempo estas dos consultas dejarán de devolver resultados.
 
+Los resultados de cada consulta están en
+[`gymcore_resultados_consultas.md`](gymcore_resultados_consultas.md).
+
 ---
 
 ## Guía de la presentación
@@ -80,4 +83,4 @@ Dónde está cada punto que pide la presentación final:
 | 3 | Modelo relacional y normalización | [Entrega 2, modelo relacional](../Entrega_2/Modelo_Relacional/README.md) |
 | 4 | Base de datos en SQL (esquema) | [`gymcore.sql`](gymcore.sql) y su [diagrama EER](gymcore_EER.png) |
 | 5 | Carga de datos | [`gymcore_populate.sql`](gymcore_populate.sql) |
-| 6 | 10 consultas | [`gymcore_consultas.sql`](gymcore_consultas.sql) |
+| 6 | 10 consultas | [`gymcore_consultas.sql`](gymcore_consultas.sql) y sus [resultados](gymcore_resultados_consultas.md) |
