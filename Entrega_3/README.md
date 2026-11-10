@@ -34,6 +34,20 @@ mysql -u root -p -t < gymcore_consultas.sql
 
 ---
 
+## Diagrama EER
+
+Diagrama entidad-relación extendido (EER) de las 28 tablas de `gymcore.sql`,
+generado con MySQL Workbench.
+
+| Archivo | Contenido |
+|---------|-----------|
+| [`gymcore_EER.png`](gymcore_EER.png) | El diagrama exportado como imagen. |
+| [`gymcore_EER.mwb`](gymcore_EER.mwb) | El modelo editable; se abre con MySQL Workbench. |
+
+[![Diagrama EER de GymCore](gymcore_EER.png)](gymcore_EER.png)
+
+---
+
 ## Consultas
 
 | # | Consulta | Qué hace | Para qué sirve |
@@ -64,6 +78,6 @@ Dónde está cada punto que pide la presentación final:
 | 1 | Análisis de la situación | [Entrega 1, sección 1](../Entrega_1/Entrega_Final_01/README.md) |
 | 2 | Modelo Entidad-Relación | [Diagrama corregido](../Entrega_2/Modelo_E-R/Modelo_Entidad_Relacion_Corregido.jpg) |
 | 3 | Modelo relacional y normalización | [Entrega 2, modelo relacional](../Entrega_2/Modelo_Relacional/README.md) |
-| 4 | Base de datos en SQL (esquema) | [`gymcore.sql`](gymcore.sql) |
+| 4 | Base de datos en SQL (esquema) | [`gymcore.sql`](gymcore.sql) y su [diagrama EER](gymcore_EER.png) |
 | 5 | Carga de datos | [`gymcore_populate.sql`](gymcore_populate.sql) |
 | 6 | 10 consultas | [`gymcore_consultas.sql`](gymcore_consultas.sql) |
